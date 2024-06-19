@@ -7,7 +7,9 @@
 }
 
 /*todos los elementos*/
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+}
 
 body{
     margin:0;
@@ -52,3 +54,25 @@ body.dark{
 .toggle-theme-text{
     font-size: 0.8rem;
 }
+
+/*IDIOMAS*/
+.flags{
+    width:75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags-item{
+    width:30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.flags-img{
+    width: 100%;
+    height: auto;
+    cursor:pointer;
+    display: block;
+}
+
